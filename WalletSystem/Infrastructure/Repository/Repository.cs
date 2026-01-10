@@ -30,5 +30,10 @@ namespace WalletSystem.Infrastructure.Repository
         {
             _context.Set<T>().Remove(entity);
         }
+
+        public async Task<T?> GetByEmaildAsync(string mail)
+        {
+             return await _context.Set<T>().FindAsync(mail);  
+        }
     }
 }
