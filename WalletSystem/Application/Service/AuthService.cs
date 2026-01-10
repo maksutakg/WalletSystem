@@ -14,27 +14,38 @@ namespace WalletSystem.Application.Service
         {
             _unitOfWork = unitOfWork;
         }
-
-        public async  Task LoginAsync(LoginRequest request)
-        {
-            
-        }
-
         public async Task RegisterAsync(RegisterRequest request)
         {
-          var exists = await _unitOfWork.Users.GetByEmaildAsync(request.Email); 
-               
-            if (exists!=null)
-                throw new Exception("User with this email already exists.");
+            var exists = await _unitOfWork.Users.GetByEmaildAsync(request.Email);
 
-           var passwordHash = BCrypt.Net.BCrypt.HashPassword(request.Password);
-            var user = new User(request.Name, request.Email, passwordHash);
-           await _unitOfWork.Users.AddAsync(user);
-           var Account = new Account(user.Id,0);
+            if (exists != null)
+                throw new InvalidOperationException("User with this email already exists.");
 
-            await _unitOfWork.Accounts.AddAsync();
+            var passwordHash = BCrypt.Net.BCrypt.HashPassword(request.Password);
+
+            var user = new User(Guid.NewGuid(), request.Name, request.Email, passwordHash);
+            await _unitOfWork.Users.AddAsync(user);
+            await _unitOfWork.SaveChangesAsync();
+
+            var Account = new Account(Guid.NewGuid(), user.Id, 0);
+            await _unitOfWork.Accounts.AddAsync(Account);
+            await _unitOfWork.SaveChangesAsync();
 
 
         }
+        public async Task LoginAsync(LoginRequest request)
+        {
+           var User = await _unitOfWork.Users.GetByEmaildAsync(request.Email);
+
+            if (User==null ||!BCrypt.Net.BCrypt.Verify(request.Password,User.Password))
+            {
+                throw new UnauthorizedAccessException("Invalid email or password.");
+
+            }
+
+            return;
+        }
+
+       
     }
 }
