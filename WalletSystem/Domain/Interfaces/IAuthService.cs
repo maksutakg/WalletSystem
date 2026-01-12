@@ -5,6 +5,6 @@ namespace WalletSystem.Domain.Interfaces
     public interface IAuthService
     {
         Task RegisterAsync(RegisterRequest request);
-        Task LoginAsync(LoginRequest request);
+        Task<String> LoginAsync(LoginRequest request);
     }
 }

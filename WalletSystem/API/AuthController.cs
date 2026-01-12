@@ -26,7 +26,7 @@ namespace WalletSystem.API
         public async Task<IActionResult> login(LoginRequest request)
         {
             await _authService.LoginAsync(request);
-            return Ok("token");  // token service 
+            return Ok(); 
         }
     }
 }

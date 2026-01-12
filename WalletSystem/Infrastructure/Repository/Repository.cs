@@ -1,4 +1,6 @@
-﻿using WalletSystem.Infrastructure.Persistence;
+﻿using Microsoft.EntityFrameworkCore;
+using WalletSystem.Domain.Common;
+using WalletSystem.Infrastructure.Persistence;
 
 namespace WalletSystem.Infrastructure.Repository
 {
@@ -31,9 +33,9 @@ namespace WalletSystem.Infrastructure.Repository
             _context.Set<T>().Remove(entity);
         }
 
-        public async Task<T?> GetByEmaildAsync(string mail)
+        public  async Task<User?> GetByEmaildAsync(String mail)
         {
-             return await _context.Set<T>().FindAsync(mail);  
+            return await _context.Users.FirstOrDefaultAsync(x => x.Email == mail);
         }
     }
 }

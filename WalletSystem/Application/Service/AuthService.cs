@@ -8,18 +8,20 @@ namespace WalletSystem.Application.Service
 {
     public class AuthService : IAuthService
     {
-        private readonly UnitOfWork _unitOfWork;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly ITokenService _tokenService;
 
-        public AuthService(UnitOfWork unitOfWork)
+        public AuthService(IUnitOfWork unitOfWork, ITokenService tokenService)
         {
             _unitOfWork = unitOfWork;
+            _tokenService = tokenService;
         }
         public async Task RegisterAsync(RegisterRequest request)
         {
-            var exists = await _unitOfWork.Users.GetByEmaildAsync(request.Email);
+           var exists = await _unitOfWork.Users.GetByEmaildAsync(request.Email);
 
-            if (exists != null)
-                throw new InvalidOperationException("User with this email already exists.");
+           if (exists != null)
+               throw new InvalidOperationException("User with this email already exists.");
 
             var passwordHash = BCrypt.Net.BCrypt.HashPassword(request.Password);
 
@@ -33,7 +35,7 @@ namespace WalletSystem.Application.Service
 
 
         }
-        public async Task LoginAsync(LoginRequest request)
+        public async Task<String> LoginAsync(LoginRequest request)
         {
            var User = await _unitOfWork.Users.GetByEmaildAsync(request.Email);
 
@@ -43,7 +45,8 @@ namespace WalletSystem.Application.Service
 
             }
 
-            return;
+            return _tokenService.GenerateToken(User);
+           
         }
 
        
