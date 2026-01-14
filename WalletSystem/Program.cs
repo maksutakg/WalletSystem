@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi;
+using Microsoft.OpenApi.Models;
+using Serilog;
 using System.Text;
 using WalletSystem.Application.Service;
 using WalletSystem.Application.Validators;
@@ -10,7 +12,7 @@ using WalletSystem.Domain.Interfaces;
 using WalletSystem.Infrastructure;
 using WalletSystem.Infrastructure.Persistence;
 using WalletSystem.Infrastructure.Repository;
-using Microsoft.OpenApi.Models;
+using WalletSystem.MÝddlewares;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,18 +21,19 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
-
 builder.Services.AddControllers();
+builder.Services.AddValidatorsFromAssemblyContaining<RegisterRequestValidator>();
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
 
-
-
+builder.Host.UseSerilog();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-
-builder.Services.AddValidatorsFromAssemblyContaining<RegisterRequestValidator>();
-
+builder.Services.AddTransient<GlobalExceptionHandler>();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -50,7 +53,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddAuthorization();
 builder.Services.AddEndpointsApiExplorer();
-
 builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo
@@ -87,16 +89,14 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 var app = builder.Build();
-
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseMiddleware<GlobalExceptionHandler>();
 app.MapControllers();
 app.Run();

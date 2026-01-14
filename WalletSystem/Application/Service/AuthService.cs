@@ -21,7 +21,7 @@ namespace WalletSystem.Application.Service
            var exists = await _unitOfWork.Users.GetByEmaildAsync(request.Email);
 
            if (exists != null)
-               throw new InvalidOperationException("User with this email already exists.");
+                throw new InvalidOperationException("User with this email already exists.");
 
             var passwordHash = BCrypt.Net.BCrypt.HashPassword(request.Password);
 

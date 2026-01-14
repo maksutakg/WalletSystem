@@ -1,0 +1,403 @@
+2026-01-14 00:59:29.985 +03:00 [INF] User profile is available. Using 'C:\Users\maksut\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-14 00:59:30.266 +03:00 [INF] Now listening on: https://localhost:7248
+2026-01-14 00:59:30.269 +03:00 [INF] Now listening on: http://localhost:5005
+2026-01-14 00:59:30.427 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-14 00:59:30.428 +03:00 [INF] Hosting environment: Development
+2026-01-14 00:59:30.429 +03:00 [INF] Content root path: C:\Users\maksut\source\repos\WalletSystem\WalletSystem
+2026-01-14 00:59:36.022 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/login - application/json 57
+2026-01-14 00:59:36.063 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'WalletSystem.Mİddlewares.GlobalExceptionHandler' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-14 00:59:36.113 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/login - 500 null text/plain; charset=utf-8 96.8906ms
+2026-01-14 01:01:08.195 +03:00 [INF] User profile is available. Using 'C:\Users\maksut\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-14 01:01:08.435 +03:00 [INF] Now listening on: https://localhost:7248
+2026-01-14 01:01:08.437 +03:00 [INF] Now listening on: http://localhost:5005
+2026-01-14 01:01:08.483 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-14 01:01:08.486 +03:00 [INF] Hosting environment: Development
+2026-01-14 01:01:08.488 +03:00 [INF] Content root path: C:\Users\maksut\source\repos\WalletSystem\WalletSystem
+2026-01-14 01:01:11.860 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/login - application/json 57
+2026-01-14 01:01:12.015 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'WalletSystem.Mİddlewares.GlobalExceptionHandler' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-14 01:01:12.060 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/login - 500 null text/plain; charset=utf-8 205.1082ms
+2026-01-14 01:01:13.975 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/login - application/json 57
+2026-01-14 01:01:13.983 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'WalletSystem.Mİddlewares.GlobalExceptionHandler' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-14 01:01:13.998 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/login - 500 null text/plain; charset=utf-8 23.6458ms
+2026-01-14 01:04:23.686 +03:00 [INF] User profile is available. Using 'C:\Users\maksut\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-14 01:04:24.232 +03:00 [INF] Now listening on: https://localhost:7248
+2026-01-14 01:04:24.234 +03:00 [INF] Now listening on: http://localhost:5005
+2026-01-14 01:04:24.291 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-14 01:04:24.292 +03:00 [INF] Hosting environment: Development
+2026-01-14 01:04:24.294 +03:00 [INF] Content root path: C:\Users\maksut\source\repos\WalletSystem\WalletSystem
+2026-01-14 01:04:26.936 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/login - application/json 57
+2026-01-14 01:04:27.098 +03:00 [INF] Executing endpoint 'WalletSystem.API.AuthController.login (WalletSystem)'
+2026-01-14 01:04:27.129 +03:00 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(WalletSystem.Application.DTOs.LoginRequest) on controller WalletSystem.API.AuthController (WalletSystem).
+2026-01-14 01:04:27.648 +03:00 [WRN] No instantiatable types implementing `IEntityTypeConfiguration` were found while while scanning assembly 'WalletSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+2026-01-14 01:04:28.300 +03:00 [INF] Executed DbCommand (43ms) [Parameters=[@__mail_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`Name`, `u`.`Password`, `u`.`Role`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__mail_0
+LIMIT 1
+2026-01-14 01:04:34.300 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-01-14 01:04:34.309 +03:00 [INF] Executed action WalletSystem.API.AuthController.login (WalletSystem) in 7172.885ms
+2026-01-14 01:04:34.313 +03:00 [INF] Executed endpoint 'WalletSystem.API.AuthController.login (WalletSystem)'
+2026-01-14 01:04:34.327 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/login - 200 null text/plain; charset=utf-8 7396.3071ms
+2026-01-14 01:04:39.079 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7248/api/Test - null null
+2026-01-14 01:04:39.091 +03:00 [INF] Executing endpoint 'WalletSystem.API.TestController.Get (WalletSystem)'
+2026-01-14 01:04:39.093 +03:00 [INF] Route matched with {action = "Get", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WalletSystem.API.TestController (WalletSystem).
+2026-01-14 01:04:39.096 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-01-14 01:04:39.098 +03:00 [INF] Executed action WalletSystem.API.TestController.Get (WalletSystem) in 2.8424ms
+2026-01-14 01:04:39.100 +03:00 [INF] Executed endpoint 'WalletSystem.API.TestController.Get (WalletSystem)'
+2026-01-14 01:04:39.102 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7248/api/Test - 200 null text/plain; charset=utf-8 23.0819ms
+2026-01-14 01:04:46.469 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7248/api/Test/admin - null null
+2026-01-14 01:04:46.482 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-01-14 01:04:46.486 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-01-14 01:04:46.487 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7248/api/Test/admin - 403 0 null 17.9217ms
+2026-01-14 01:05:03.042 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/login - application/json 57
+2026-01-14 01:05:03.049 +03:00 [INF] Executing endpoint 'WalletSystem.API.AuthController.login (WalletSystem)'
+2026-01-14 01:05:03.051 +03:00 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(WalletSystem.Application.DTOs.LoginRequest) on controller WalletSystem.API.AuthController (WalletSystem).
+2026-01-14 01:05:03.085 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__mail_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`Name`, `u`.`Password`, `u`.`Role`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__mail_0
+LIMIT 1
+2026-01-14 01:05:13.437 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-01-14 01:05:13.440 +03:00 [INF] Executed action WalletSystem.API.AuthController.login (WalletSystem) in 10386.3396ms
+2026-01-14 01:05:13.444 +03:00 [INF] Executed endpoint 'WalletSystem.API.AuthController.login (WalletSystem)'
+2026-01-14 01:05:13.445 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/login - 200 null text/plain; charset=utf-8 10403.0968ms
+2026-01-14 01:05:17.837 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7248/swagger/index.html - null null
+2026-01-14 01:05:17.951 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7248/swagger/index.html - 200 null text/html;charset=utf-8 113.8266ms
+2026-01-14 01:05:17.955 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7248/swagger/swagger-ui.css - null null
+2026-01-14 01:05:17.955 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7248/swagger/swagger-ui-bundle.js - null null
+2026-01-14 01:05:17.955 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7248/swagger/swagger-ui-standalone-preset.js - null null
+2026-01-14 01:05:17.955 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7248/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-14 01:05:18.034 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7248/_vs/browserLink - null null
+2026-01-14 01:05:18.043 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7248/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 87.9444ms
+2026-01-14 01:05:18.059 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-01-14 01:05:18.067 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-01-14 01:05:18.058 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-01-14 01:05:18.079 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7248/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 123.6793ms
+2026-01-14 01:05:18.085 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7248/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 129.6081ms
+2026-01-14 01:05:18.088 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7248/swagger/swagger-ui.css - 200 144929 text/css 132.8518ms
+2026-01-14 01:05:18.108 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7248/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.8967ms
+2026-01-14 01:05:18.338 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7248/swagger/v1/swagger.json - null null
+2026-01-14 01:05:18.347 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7248/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.5624ms
+2026-01-14 01:05:18.355 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7248/swagger/favicon-32x32.png - null null
+2026-01-14 01:05:18.361 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-01-14 01:05:18.364 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7248/swagger/favicon-32x32.png - 200 628 image/png 8.1704ms
+2026-01-14 01:05:35.061 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/login - application/json 59
+2026-01-14 01:05:35.065 +03:00 [INF] Executing endpoint 'WalletSystem.API.AuthController.login (WalletSystem)'
+2026-01-14 01:05:35.067 +03:00 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(WalletSystem.Application.DTOs.LoginRequest) on controller WalletSystem.API.AuthController (WalletSystem).
+2026-01-14 01:05:35.149 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__mail_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`Name`, `u`.`Password`, `u`.`Role`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__mail_0
+LIMIT 1
+2026-01-14 01:05:47.694 +03:00 [INF] Executed action WalletSystem.API.AuthController.login (WalletSystem) in 12624.0538ms
+2026-01-14 01:05:47.696 +03:00 [INF] Executed endpoint 'WalletSystem.API.AuthController.login (WalletSystem)'
+2026-01-14 01:05:47.771 +03:00 [ERR] Invalid email or password.
+System.UnauthorizedAccessException: Invalid email or password.
+   at WalletSystem.Application.Service.AuthService.LoginAsync(LoginRequest request) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\Application\Service\AuthService.cs:line 44
+   at WalletSystem.API.AuthController.login(LoginRequest request) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\API\AuthController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at WalletSystem.Mİddlewares.GlobalExceptionHandler.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\Mİddlewares\GlobalExceptionHandler.cs:line 17
+2026-01-14 01:05:47.812 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/login - 401 null application/json; charset=utf-8 12751.1285ms
+2026-01-14 01:06:37.333 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/register - application/json 77
+2026-01-14 01:06:37.336 +03:00 [INF] Executing endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 01:06:37.346 +03:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(WalletSystem.Application.DTOs.RegisterRequest) on controller WalletSystem.API.AuthController (WalletSystem).
+2026-01-14 01:06:37.360 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__mail_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`Name`, `u`.`Password`, `u`.`Role`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__mail_0
+LIMIT 1
+2026-01-14 01:06:48.628 +03:00 [INF] Executed action WalletSystem.API.AuthController.register (WalletSystem) in 11277.7624ms
+2026-01-14 01:06:48.630 +03:00 [INF] Executed endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 01:06:48.694 +03:00 [ERR] User with this email already exists.
+System.InvalidOperationException: User with this email already exists.
+   at WalletSystem.Application.Service.AuthService.RegisterAsync(RegisterRequest request) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\Application\Service\AuthService.cs:line 24
+   at WalletSystem.API.AuthController.register(RegisterRequest request) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\API\AuthController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at WalletSystem.Mİddlewares.GlobalExceptionHandler.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\Mİddlewares\GlobalExceptionHandler.cs:line 17
+2026-01-14 01:06:48.706 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/register - 400 null application/json; charset=utf-8 11373.5276ms
+2026-01-14 01:09:08.410 +03:00 [INF] User profile is available. Using 'C:\Users\maksut\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-14 01:09:08.667 +03:00 [INF] Now listening on: https://localhost:7248
+2026-01-14 01:09:08.668 +03:00 [INF] Now listening on: http://localhost:5005
+2026-01-14 01:09:08.714 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-14 01:09:08.715 +03:00 [INF] Hosting environment: Development
+2026-01-14 01:09:08.716 +03:00 [INF] Content root path: C:\Users\maksut\source\repos\WalletSystem\WalletSystem
+2026-01-14 01:09:20.479 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/register - application/json 71
+2026-01-14 01:09:20.612 +03:00 [INF] Executing endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 01:09:20.642 +03:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(WalletSystem.Application.DTOs.RegisterRequest) on controller WalletSystem.API.AuthController (WalletSystem).
+2026-01-14 01:09:21.149 +03:00 [WRN] No instantiatable types implementing `IEntityTypeConfiguration` were found while while scanning assembly 'WalletSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+2026-01-14 01:09:21.789 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[@__mail_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`Name`, `u`.`Password`, `u`.`Role`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__mail_0
+LIMIT 1
+2026-01-14 01:09:26.184 +03:00 [INF] Executed action WalletSystem.API.AuthController.register (WalletSystem) in 5535.3839ms
+2026-01-14 01:09:26.189 +03:00 [INF] Executed endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 01:09:26.261 +03:00 [ERR] User with this email already exists.
+System.InvalidOperationException: User with this email already exists.
+   at WalletSystem.Application.Service.AuthService.RegisterAsync(RegisterRequest request) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\Application\Service\AuthService.cs:line 24
+   at WalletSystem.API.AuthController.register(RegisterRequest request) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\API\AuthController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at WalletSystem.Mİddlewares.GlobalExceptionHandler.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\Mİddlewares\GlobalExceptionHandler.cs:line 17
+2026-01-14 01:09:26.302 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/register - 400 null application/json; charset=utf-8 5830.9026ms
+2026-01-14 01:09:35.180 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/register - application/json 73
+2026-01-14 01:09:35.187 +03:00 [INF] Executing endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 01:09:35.189 +03:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(WalletSystem.Application.DTOs.RegisterRequest) on controller WalletSystem.API.AuthController (WalletSystem).
+2026-01-14 01:09:35.219 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__mail_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`Name`, `u`.`Password`, `u`.`Role`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__mail_0
+LIMIT 1
+2026-01-14 01:09:35.649 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 255), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+INSERT INTO `Users` (`Id`, `Email`, `Name`, `Password`, `Role`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-01-14 01:09:35.683 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Decimal), @p2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+INSERT INTO `Accounts` (`Id`, `Balance`, `UserId`)
+VALUES (@p0, @p1, @p2);
+2026-01-14 01:09:35.691 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-01-14 01:09:35.693 +03:00 [INF] Executed action WalletSystem.API.AuthController.register (WalletSystem) in 500.9064ms
+2026-01-14 01:09:35.695 +03:00 [INF] Executed endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 01:09:35.697 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/register - 200 0 null 516.6855ms
+2026-01-14 01:20:02.308 +03:00 [INF] User profile is available. Using 'C:\Users\maksut\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-14 01:20:25.627 +03:00 [INF] Now listening on: https://localhost:7248
+2026-01-14 01:20:25.629 +03:00 [INF] Now listening on: http://localhost:5005
+2026-01-14 01:20:25.678 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-14 01:20:25.679 +03:00 [INF] Hosting environment: Development
+2026-01-14 01:20:25.680 +03:00 [INF] Content root path: C:\Users\maksut\source\repos\WalletSystem\WalletSystem
+2026-01-14 01:32:33.188 +03:00 [INF] User profile is available. Using 'C:\Users\maksut\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-14 01:32:33.581 +03:00 [INF] Now listening on: https://localhost:7248
+2026-01-14 01:32:33.584 +03:00 [INF] Now listening on: http://localhost:5005
+2026-01-14 01:32:33.636 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-14 01:32:33.638 +03:00 [INF] Hosting environment: Development
+2026-01-14 01:32:33.639 +03:00 [INF] Content root path: C:\Users\maksut\source\repos\WalletSystem\WalletSystem
+2026-01-14 01:32:38.705 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7248/swagger/index.html - null null
+2026-01-14 01:32:38.937 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7248/swagger/index.html - 200 null text/html;charset=utf-8 238.1561ms
+2026-01-14 01:32:38.943 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7248/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-14 01:32:38.950 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7248/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 7.4245ms
+2026-01-14 01:32:38.969 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7248/_vs/browserLink - null null
+2026-01-14 01:32:39.037 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7248/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.6037ms
+2026-01-14 01:32:39.262 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7248/swagger/v1/swagger.json - null null
+2026-01-14 01:32:39.269 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7248/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.0661ms
+2026-01-14 01:32:50.932 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/register - application/json 55
+2026-01-14 01:32:51.019 +03:00 [INF] Executing endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 01:32:51.055 +03:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(WalletSystem.Application.DTOs.RegisterRequest) on controller WalletSystem.API.AuthController (WalletSystem).
+2026-01-14 01:32:51.709 +03:00 [WRN] No instantiatable types implementing `IEntityTypeConfiguration` were found while while scanning assembly 'WalletSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+2026-01-14 01:32:52.357 +03:00 [INF] Executed DbCommand (42ms) [Parameters=[@__mail_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`Name`, `u`.`Password`, `u`.`Role`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__mail_0
+LIMIT 1
+2026-01-14 01:32:52.843 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 255), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+INSERT INTO `Users` (`Id`, `Email`, `Name`, `Password`, `Role`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-01-14 01:32:52.877 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Decimal), @p2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+INSERT INTO `Accounts` (`Id`, `Balance`, `UserId`)
+VALUES (@p0, @p1, @p2);
+2026-01-14 01:32:52.886 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-01-14 01:32:52.892 +03:00 [INF] Executed action WalletSystem.API.AuthController.register (WalletSystem) in 1830.794ms
+2026-01-14 01:32:52.894 +03:00 [INF] Executed endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 01:32:52.903 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/register - 200 0 null 1971.2374ms
+2026-01-14 01:53:51.281 +03:00 [INF] User profile is available. Using 'C:\Users\maksut\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-14 01:53:51.513 +03:00 [INF] Now listening on: https://localhost:7248
+2026-01-14 01:53:51.515 +03:00 [INF] Now listening on: http://localhost:5005
+2026-01-14 01:53:51.559 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-14 01:53:51.561 +03:00 [INF] Hosting environment: Development
+2026-01-14 01:53:51.562 +03:00 [INF] Content root path: C:\Users\maksut\source\repos\WalletSystem\WalletSystem
+2026-01-14 01:54:30.466 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/register - application/json 55
+2026-01-14 01:54:30.559 +03:00 [INF] Executing endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 01:54:30.583 +03:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(WalletSystem.Application.DTOs.RegisterRequest) on controller WalletSystem.API.AuthController (WalletSystem).
+2026-01-14 01:54:31.077 +03:00 [WRN] No instantiatable types implementing `IEntityTypeConfiguration` were found while while scanning assembly 'WalletSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+2026-01-14 01:54:31.714 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[@__mail_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`Name`, `u`.`Password`, `u`.`Role`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__mail_0
+LIMIT 1
+2026-01-14 01:54:43.710 +03:00 [INF] Executed action WalletSystem.API.AuthController.register (WalletSystem) in 13120.4858ms
+2026-01-14 01:54:43.714 +03:00 [INF] Executed endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 01:54:43.791 +03:00 [ERR] User with this email already exists.
+System.InvalidOperationException: User with this email already exists.
+   at WalletSystem.Application.Service.AuthService.RegisterAsync(RegisterRequest request) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\Application\Service\AuthService.cs:line 24
+   at WalletSystem.API.AuthController.register(RegisterRequest request) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\API\AuthController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at WalletSystem.Mİddlewares.GlobalExceptionHandler.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\Mİddlewares\GlobalExceptionHandler.cs:line 17
+2026-01-14 01:54:43.856 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/register - 400 null application/json; charset=utf-8 13391.6854ms
+2026-01-14 01:54:55.566 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/register - application/json 61
+2026-01-14 01:54:55.572 +03:00 [INF] Executing endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 01:54:55.573 +03:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(WalletSystem.Application.DTOs.RegisterRequest) on controller WalletSystem.API.AuthController (WalletSystem).
+2026-01-14 01:54:55.598 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__mail_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`Name`, `u`.`Password`, `u`.`Role`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__mail_0
+LIMIT 1
+2026-01-14 01:54:56.034 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 255), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+INSERT INTO `Users` (`Id`, `Email`, `Name`, `Password`, `Role`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-01-14 01:54:56.066 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Decimal), @p2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+INSERT INTO `Accounts` (`Id`, `Balance`, `UserId`)
+VALUES (@p0, @p1, @p2);
+2026-01-14 01:54:56.072 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-01-14 01:54:56.074 +03:00 [INF] Executed action WalletSystem.API.AuthController.register (WalletSystem) in 497.6698ms
+2026-01-14 01:54:56.075 +03:00 [INF] Executed endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 01:54:56.077 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/register - 200 0 null 511.2579ms
+2026-01-14 02:09:31.221 +03:00 [INF] User profile is available. Using 'C:\Users\maksut\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-14 02:09:31.460 +03:00 [INF] Now listening on: https://localhost:7248
+2026-01-14 02:09:31.462 +03:00 [INF] Now listening on: http://localhost:5005
+2026-01-14 02:09:31.508 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-14 02:09:31.510 +03:00 [INF] Hosting environment: Development
+2026-01-14 02:09:31.510 +03:00 [INF] Content root path: C:\Users\maksut\source\repos\WalletSystem\WalletSystem
+2026-01-14 02:09:37.840 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/register - application/json 63
+2026-01-14 02:09:37.934 +03:00 [INF] Executing endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 02:09:37.959 +03:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(WalletSystem.Application.DTOs.RegisterRequest) on controller WalletSystem.API.AuthController (WalletSystem).
+2026-01-14 02:09:38.476 +03:00 [WRN] No instantiatable types implementing `IEntityTypeConfiguration` were found while while scanning assembly 'WalletSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+2026-01-14 02:09:39.165 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[@__mail_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`Email`, `u`.`Name`, `u`.`Password`, `u`.`Role`
+FROM `Users` AS `u`
+WHERE `u`.`Email` = @__mail_0
+LIMIT 1
+2026-01-14 02:09:39.658 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 255), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+INSERT INTO `Users` (`Id`, `Email`, `Name`, `Password`, `Role`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-01-14 02:09:39.692 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Decimal), @p2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+INSERT INTO `Accounts` (`Id`, `Balance`, `UserId`)
+VALUES (@p0, @p1, @p2);
+2026-01-14 02:09:39.701 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-01-14 02:09:39.708 +03:00 [INF] Executed action WalletSystem.API.AuthController.register (WalletSystem) in 1741.8455ms
+2026-01-14 02:09:39.710 +03:00 [INF] Executed endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 02:09:39.726 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/register - 200 0 null 1891.435ms
+2026-01-14 02:15:44.469 +03:00 [INF] User profile is available. Using 'C:\Users\maksut\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-14 02:15:44.708 +03:00 [INF] Now listening on: https://localhost:7248
+2026-01-14 02:15:44.710 +03:00 [INF] Now listening on: http://localhost:5005
+2026-01-14 02:15:44.754 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-14 02:15:44.755 +03:00 [INF] Hosting environment: Development
+2026-01-14 02:15:44.756 +03:00 [INF] Content root path: C:\Users\maksut\source\repos\WalletSystem\WalletSystem
+2026-01-14 02:15:47.337 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/register - application/json 63
+2026-01-14 02:15:47.432 +03:00 [INF] Executing endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 02:15:47.457 +03:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(WalletSystem.Application.DTOs.RegisterRequest) on controller WalletSystem.API.AuthController (WalletSystem).
+2026-01-14 02:16:07.834 +03:00 [INF] Executed action WalletSystem.API.AuthController.register (WalletSystem) in 20371.2663ms
+2026-01-14 02:16:07.837 +03:00 [INF] Executed endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 02:16:10.190 +03:00 [ERR] Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at WalletSystem.API.AuthController.register(RegisterRequest request) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\API\AuthController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at WalletSystem.Mİddlewares.GlobalExceptionHandler.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\Mİddlewares\GlobalExceptionHandler.cs:line 17
+2026-01-14 02:16:10.226 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/register - 500 null application/json; charset=utf-8 22895.0368ms
+2026-01-14 02:20:47.873 +03:00 [INF] User profile is available. Using 'C:\Users\maksut\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-14 02:20:48.095 +03:00 [INF] Now listening on: https://localhost:7248
+2026-01-14 02:20:48.097 +03:00 [INF] Now listening on: http://localhost:5005
+2026-01-14 02:20:48.139 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-14 02:20:48.140 +03:00 [INF] Hosting environment: Development
+2026-01-14 02:20:48.141 +03:00 [INF] Content root path: C:\Users\maksut\source\repos\WalletSystem\WalletSystem
+2026-01-14 02:20:51.385 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/register - application/json 63
+2026-01-14 02:20:51.478 +03:00 [INF] Executing endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 02:20:51.500 +03:00 [INF] Route matched with {action = "register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(WalletSystem.Application.DTOs.RegisterRequest) on controller WalletSystem.API.AuthController (WalletSystem).
+2026-01-14 02:20:57.728 +03:00 [INF] Executed action WalletSystem.API.AuthController.register (WalletSystem) in 6221.8972ms
+2026-01-14 02:20:57.731 +03:00 [INF] Executed endpoint 'WalletSystem.API.AuthController.register (WalletSystem)'
+2026-01-14 02:20:57.754 +03:00 [ERR] System.Collections.Generic.List`1[FluentValidation.Results.ValidationFailure]
+FluentValidation.ValidationException: System.Collections.Generic.List`1[FluentValidation.Results.ValidationFailure]
+   at WalletSystem.API.AuthController.register(RegisterRequest request) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\API\AuthController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at WalletSystem.Mİddlewares.GlobalExceptionHandler.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\maksut\source\repos\WalletSystem\WalletSystem\Mİddlewares\GlobalExceptionHandler.cs:line 17
+2026-01-14 02:20:57.788 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/register - 500 null application/json; charset=utf-8 6407.8613ms
+2026-01-14 02:33:01.245 +03:00 [INF] User profile is available. Using 'C:\Users\maksut\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-14 02:33:01.542 +03:00 [INF] Now listening on: https://localhost:7248
+2026-01-14 02:33:01.544 +03:00 [INF] Now listening on: http://localhost:5005
+2026-01-14 02:33:01.592 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-14 02:33:01.593 +03:00 [INF] Hosting environment: Development
+2026-01-14 02:33:01.594 +03:00 [INF] Content root path: C:\Users\maksut\source\repos\WalletSystem\WalletSystem
+2026-01-14 02:33:04.022 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7248/api/Auth/register - application/json 63
+2026-01-14 02:33:04.110 +03:00 [INF] Executing endpoint 'WalletSystem.API.AuthController.Register (WalletSystem)'
+2026-01-14 02:33:04.138 +03:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(WalletSystem.Application.DTOs.RegisterRequest) on controller WalletSystem.API.AuthController (WalletSystem).
+2026-01-14 02:33:04.441 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-01-14 02:33:04.461 +03:00 [INF] Executed action WalletSystem.API.AuthController.Register (WalletSystem) in 317.8458ms
+2026-01-14 02:33:04.463 +03:00 [INF] Executed endpoint 'WalletSystem.API.AuthController.Register (WalletSystem)'
+2026-01-14 02:33:04.467 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7248/api/Auth/register - 400 null application/problem+json; charset=utf-8 451.8543ms
